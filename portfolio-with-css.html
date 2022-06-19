@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="My Portfolio" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="author" content="Eric Hu" />
+
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <div class="container">
+    <!--Header and Navigation Bar-->
+    <div class="col-12 col-s-12 header-and-nav">
+      <header class="col-4 col-s-4 header">
+        <h1>Eric's Portfolio</h1>
+      </header>
+      <nav class="col-8 col-s-8">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="/portfolio.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.techjblog.com">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#project">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--Self Introduction Section-->
+    <section class="col-12 col-s-12 self-intro">
+      <img src="./images/profile-image.jpg" class="col-4 col-s-4 profile-image" />
+      <div class="col-8 col-s-8 self-intro-text">
+        <h2>Hello, I am XXXX. Welcome to My Portfolio.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          dapibus, leo euismod consectetur cursus, nisl elit faucibus nisi, ut
+          sollicitudin nibh odio et massa. Vestibulum maximus orci at felis
+          cursus viverra. Nunc sodales diam mi, eget congue sem viverra sed.
+          Nulla suscipit urna at felis interdum, vel blandit libero
+          vestibulum. Donec libero felis, feugiat non ante id, pretium
+          tristique risus. Duis ut erat blandit, suscipit velit auctor,
+          venenatis purus. Pellentesque venenatis odio non pulvinar imperdiet.
+          Sed fringilla lectus sit amet placerat molestie. Pellentesque
+          venenatis cursus imperdiet. Aenean porta a enim vel vehicula. Nunc
+          aliquam pharetra nulla eu volutpat. Maecenas ut.
+        </p>
+      </div>
+    </section>
+
+    <!--Newsletter Signup Section-->
+    <section class="col-12 col-s-12 newsletter-signup">
+      <h2 class="col-6 col-s-6">
+        Would you like to see more tips and tutorials on web development?
+      </h2>
+      <form class="col-6 col-s-6 newsletter-signup-form">
+        <label for="firstname">First Name:</label><br />
+        <input type="text" id="firstname" />
+        <br />
+        <label for="lastname">Last Name:</label><br />
+        <input type="text" id="lastname" />
+        <br />
+        <label for="email">Enter your email:</label><br />
+        <input type="email" id="email" name="email" />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!--Skills Section-->
+    <section class="col-12 col-s-12 skills-section">
+      <h2 class="col-12 col-s-12">My Skills</h2>
+      <ul class="col-8 col-s-8 skills-list">
+        <li>HTML (100%)</li>
+        <li>CSS (90%)</li>
+        <li>JavaScript (90%)</li>
+        <li>Python (90%)</li>
+        <li>PHP (100&#37;)</li>
+        <li>Java (90&#37;)</li>
+        <li>Vue.js (80&percnt;)</li>
+        <li>Django (90&percnt;)</li>
+        <li>Laravel (90&percnt;)</li>
+      </ul>
+    </section>
+
+    <!--Projects Section-->
+    <section class="col-12 col-s-12 porject-section" id="project">
+      <h2 class="col-12 col-s-12">My Projects</h2>
+      <div class="col-4 col-s-4">
+        <div class="project-card">
+          <h3>First Project</h3>
+          <img src="./images/p1.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vestibulum molestie hendrerit lectus eu bibendum. Nullam
+            tincidunt, odio quis auctor aliquet, ante nisi malesuada arcu,
+            eget dictum mi dui sit amet neque. Duis ornare, tellus sed
+            molestie luctus, turpis nisl lobortis nibh, et auctor sapien metus
+            vel nunc. Sed mollis scelerisque sem ac scelerisque. Quisque non
+            odio porttitor, ultricies eros nec, gravida magna. Integer aliquam
+            quam a erat molestie pretium. Duis lobortis aliquam elit, id
+            accumsan ipsum dapibus in. Phasellus nec fringilla mauris, quis
+            porta urna. Nunc feugiat massa ante.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-4 col-s-4">
+        <div class="project-card">
+          <h3>Second Project</h3>
+          <img src="./images/p2.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vestibulum molestie hendrerit lectus eu bibendum. Nullam
+            tincidunt, odio quis auctor aliquet, ante nisi malesuada arcu,
+            eget dictum mi dui sit amet neque. Duis ornare, tellus sed
+            molestie luctus, turpis nisl lobortis nibh, et auctor sapien metus
+            vel nunc. Sed mollis scelerisque sem ac scelerisque. Quisque non
+            odio porttitor, ultricies eros nec, gravida magna. Integer aliquam
+            quam a erat molestie pretium. Duis lobortis aliquam elit, id
+            accumsan ipsum dapibus in. Phasellus nec fringilla mauris, quis
+            porta urna. Nunc feugiat massa ante.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-4 col-s-4">
+        <div class="project-card">
+          <h3>Third Project</h3>
+          <img src="./images/p3.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vestibulum molestie hendrerit lectus eu bibendum. Nullam
+            tincidunt, odio quis auctor aliquet, ante nisi malesuada arcu,
+            eget dictum mi dui sit amet neque. Duis ornare, tellus sed
+            molestie luctus, turpis nisl lobortis nibh, et auctor sapien metus
+            vel nunc. Sed mollis scelerisque sem ac scelerisque. Quisque non
+            odio porttitor, ultricies eros nec, gravida magna. Integer aliquam
+            quam a erat molestie pretium. Duis lobortis aliquam elit, id
+            accumsan ipsum dapibus in. Phasellus nec fringilla mauris, quis
+            porta urna. Nunc feugiat massa ante.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="col-12 col-s-12 footer">
+      <p>Created by Eric Hu</p>
+      <p><a href="mailto:huericnan@gmail.com">huericnan@gmail.com</a></p>
+    </footer>
+  </div>
+</body>
+
+</html>
